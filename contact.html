@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<script>document.documentElement.classList.add("has-js");</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact | Tehillah Digital Business Solutions</title>
+<meta name="description" content="Book a free scoping call with Tehillah Digital Business Solutions — cyber security, IT audit and business process advisory for UK SMEs." />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+<link rel="canonical" href="https://www.tehillahdigital.co.uk/contact.html" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400..900;1,400..900&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <img class="seal-mark" src="assets/logo-mark.png" alt="" />
+      <span class="brand-name">Tehillah Digital<small>Cyber Security &amp; IT Audit</small></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M2 5h16M2 10h16M2 15h16" stroke="#0C1E47" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+
+    <nav class="primary-nav" id="primaryNav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="cyber.html">Cyber Risk</a>
+      <a href="startups.html">Start-ups</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="btn btn-primary is-active">Book a Consultation</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero bg-emerald" style="--bg:url(assets/photos/manchester-3-mono.jpg);">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="eyebrow" style="color:var(--teal);">Get in touch</span>
+        <h1>Tell us what you're trying to sort out</h1>
+        <p style="color:rgba(246,246,247,0.8);">A few lines is plenty. Tell us about your business and what prompted you to get in touch, whether that's a customer asking about your security, an audit coming up, or simply not being sure where your risks sit. We reply within one working day.</p>
+
+        <form id="contactForm" name="contact" method="POST">
+          <!-- honeypot anti-spam field — left blank by humans, hidden from view -->
+          <div class="honeypot-field" aria-hidden="true">
+            <label for="companyWebsite">Company website</label>
+            <input type="text" id="companyWebsite" name="companyWebsite" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="firstName">First name</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+            <div class="field">
+              <label for="lastName">Last name</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone (optional)</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Tell us about your request</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note" style="font-size:0.82rem; color:rgba(246,246,247,0.6); margin-top:14px;">By sending this message you're happy for us to reply to your enquiry. Find out how we look after your details in our <a href="privacy.html" style="color:var(--citrine);">privacy notice</a>.</p>
+        </form>
+      </div>
+
+      <div class="contact-details">
+        <div class="item">
+          <span class="label">CALL</span>
+          <a class="value" href="tel:+447592297682">07592 297 682</a>
+        </div>
+        <div class="item">
+          <span class="label">EMAIL</span>
+          <a class="value" href="mailto:hello@tehillahdigital.co.uk">hello@tehillahdigital.co.uk</a>
+        </div>
+        <div class="item">
+          <span class="label">HOURS</span>
+          <span class="value">Mon&ndash;Fri, 9:00&ndash;18:00 (UK time)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-brand">
+      <img class="seal-mark" src="assets/logo-mark-tile.png" alt="" />
+      <span>Tehillah Digital Business Solutions Limited</span>
+    </div>
+    <nav class="foot-links">
+      <a href="services.html">Services</a>
+      <a href="cyber.html">Cyber Risk</a>
+      <a href="startups.html">Start-ups</a>
+      <a href="about.html">About</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy notice</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>&copy; <span id="year"></span> Tehillah Digital Business Solutions Limited. Registered in England &amp; Wales. Company No. 17417070.</span>
+    <span>Manchester, United Kingdom</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
